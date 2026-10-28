@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  color: #333333;
+  background-color: #fff8f0;
+}
+
+header nav ul li a {
+  color: #d9534f;
+  text-decoration: none;
+}
+
+aside ul li a {
+  color: #f0ad4e;
+  text-decoration: none;
+}
+
+footer ul li a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.btn-comprar {
+  color: #d9534f;
+}
+
+.btn-comprar {
+  color: #d9534f;
+}
+
+.btn-comprar {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  text-decoration: underline;
+  display: inline;
+}
