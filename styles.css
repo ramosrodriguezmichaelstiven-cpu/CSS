@@ -3,15 +3,38 @@ body {
   color: #333333;
   background-color: #fff8f0;
 }
-
+header {
+  background-color: bisque;
+  margin: 15px;
+  padding: 15px;
+  background-image: url(comida.png);
+}
 header nav ul li a {
-  color: #d9534f;
+  color: #000000;
   text-decoration: none;
+}
+
+main {
+  background-color: blanchedalmond;
+  margin: 15px;
+  padding: 30px;
+}
+
+aside {
+  background-color: beige;
+  margin: 15px;
+  padding: 30px;
 }
 
 aside ul li a {
   color: #f0ad4e;
   text-decoration: none;
+}
+
+footer {
+  background-color: blanchedalmond;
+  margin: 15px;
+  padding: 30px;
 }
 
 footer ul li a {
@@ -35,3 +58,4 @@ footer ul li a {
     text-decoration: underline;
     display: inline;
 }
+
