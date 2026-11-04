@@ -1,57 +1,70 @@
+:root {
+  --color: #d9534f;
+  --color-negro: #000;
+  --color-blanco: #fff8f0;
+  --color-bisque: bisque;
+  --color-blanchedalmond: blanchedalmond;
+  --color-beige: beige;
+  --color-mostaza: #f0ad4e;
+  --color-gris: #6c757d;
+  --espaciado-grande: 15px;
+  --espaciado-medio: 30px;
+}
 body {
   font-family: sans-serif;
-  color: #333333;
-  background-color: #fff8f0;
+  color: var(--color-negro);
+  background-color: var( --color-blanco);
 }
+
 header {
-  background-color: bisque;
-  margin: 15px;
-  padding: 15px;
+  background-color: var(--color-bisque);
+  margin: var(--margin);
+  padding: var(--padding);
   background-image: url(comida.png);
 }
 header nav ul li a {
-  color: #000000;
+  color: var(--color-negro);
   text-decoration: none;
 }
 
 main {
-  background-color: blanchedalmond;
-  margin: 15px;
-  padding: 30px;
+  background-color: var(--color-blanchedalmond);
+  margin: var(--espaciado-grande);
+  padding: var(--espaciado-medio);
 }
 
 aside {
-  background-color: beige;
-  margin: 15px;
-  padding: 30px;
+  background-color: var(--color-beige);
+  margin: var(--espaciado-grande);
+  padding: var(--espaciado-medio);
 }
 
 aside ul li a {
-  color: #f0ad4e;
+  color: var(--color-mostaza);
   text-decoration: none;
 }
 
 footer {
-  background-color: blanchedalmond;
-  margin: 15px;
-  padding: 30px;
+  background-color: var(--color-blanchedalmond);
+  margin: var(--espaciado-grande);
+  padding: var(--espaciado-medio);
 }
 
 footer ul li a {
-  color: #6c757d;
+  color: var(--color-gris);
   text-decoration: none;
 }
 
 .btn-comprar {
-  color: #d9534f;
+  color: var(--color);
 }
 
 .btn-comprar {
-  color: #d9534f;
+  color: var(--color);
 }
 
 .btn-comprar {
-    color: #d9534f;
+    color: var(--color);
     background-color: transparent;
     padding: 0;
     border-radius: 0;
