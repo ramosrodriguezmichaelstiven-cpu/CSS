@@ -1,0 +1,26 @@
+.btn {
+  color: #ffffff;
+  background-color: var(--color);
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn:hover {
+  background-color: #c9302c;
+}
+
+.btn:active {
+  transform: scale(0.96);
+}
+
+.btn--secundario {
+  background-color: var(--color-gris);
+}
+
+.btn--secundario:hover {
+  background-color: #5a6268;
+}
